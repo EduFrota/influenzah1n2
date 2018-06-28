@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sobreH1N2">
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Conhecimentos sobre a influenza H1N2"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:paddingTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:padding="8dp"
+        android:src="@drawable/buttonconceito"
+        android:id="@+id/conceito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conceito"/>
+
+    <ImageButton
+        android:padding="8dp"
+        android:src="@drawable/buttonepidemiologiadados"
+        android:id="@+id/dados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Epidemiologia (Dados)"/>
+    <ImageButton
+        android:padding="8dp"
+        android:src="@drawable/buttoncaracteristicasclinicas"
+        android:id="@+id/c_clicnicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Características clinicas:"/>
+    <ImageButton
+        android:padding="8dp"
+        android:src="@drawable/buttongruposderisco"
+        android:id="@+id/g_risco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grupos de risco"/>
+    </LinearLayout>
+
+</LinearLayout>

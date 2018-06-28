@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eduardofrota.projeto_h1n2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_h1n2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_h1n2_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="influenza H1N2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".sobreH1N2"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityTratamento"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityReferencias"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ActivityQuiz"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".ActivityResposta"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ActivityConceito"
+            android:parentActivityName=".sobreH1N2"/>
+        <activity android:name=".ActivityDados"
+            android:parentActivityName=".sobreH1N2"/>
+        <activity android:name=".ActivityCaracteristicas"
+            android:parentActivityName=".sobreH1N2"/>
+        <activity android:name=".ActivityRisco"
+            android:parentActivityName=".sobreH1N2">
+
+        </activity>
+    </application>
+
+</manifest>
